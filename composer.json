@@ -1,5 +1,5 @@
 {
-    "name": "jonathan/findhelper",
+    "name": "jkpeyi/findhelper",
     "description": "An utility to simplify the use of the findOrFail method and adapt it to any model. Automatically handles exceptions and error returns.",
     "type": "library",
     "license": "MIT",
