@@ -1,0 +1,23 @@
+{
+    "name": "jonathan/findhelper",
+    "description": "An utility to simplify the use of the findOrFail method and adapt it to any model. Automatically handles exceptions and error returns.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jkpeyi\\Findhelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan KPEYI",
+            "email": "jkpeyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2|^8.0",
+        "laravel/framework": "^5.0"
+
+    }
+}
