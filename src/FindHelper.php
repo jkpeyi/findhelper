@@ -2,7 +2,7 @@
 
 
 
-namespace App\Jkpeyi\Findhelper;
+namespace Jkpeyi\Findhelper;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
