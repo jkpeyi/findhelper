@@ -15,7 +15,8 @@ class FindHelper
             $obj = $model->findOrFail($id);
             return $obj;
         } catch (ModelNotFoundException $e) {
-            abort(422, $e->getModel() . " not found");
+            return response()->json(['error' => $e->getModel() .' not found'], 404);
+
         }
     }
 }
